@@ -140,27 +140,3 @@ const usuario = [
         recados: [],
     }
 ];
-
-'usuarios' => usuarios 
-
-
-
-const usuario = [
-    {
-        id: 0,
-        nome: 'Murilo',
-    },
-    {
-        id: 1,
-        nome: 'Larissa',
-    }
-];
-
-'usuarios' => usuarios 
-'recados-0' = []
-
-localStorage.getItem(getChave())
-
-function getChave(usuario) {
-    return `recados-${usuario.id}`;
-}
