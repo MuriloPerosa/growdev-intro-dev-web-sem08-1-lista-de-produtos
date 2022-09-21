@@ -1,0 +1,42 @@
+body {
+    margin: 25px;
+}
+
+input[type=submit]{
+    all: unset;
+    background-color: indianred;
+    color: white;
+    border: none;
+    margin: 5px;
+    padding: 5px;
+    cursor: pointer;
+}
+
+table, th, td {
+    border: 1px solid grey;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 20px;
+    width: 200px;
+    text-align: center;
+}
+
+table th {
+    color: white;
+    background-color: indianred;
+}
+
+tbody th {
+    opacity: .8;
+}
+
+div#msg-erro{
+    color: red;
+}
+
+img{
+    cursor: pointer;
+    margin: 0 10px 0 10px;
+}
